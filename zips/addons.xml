@@ -223,7 +223,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.15" provider-name="Eldorado, tknorris, tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.16" provider-name="Eldorado, tknorris, tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -242,6 +242,7 @@
         <website>https://www.tvaddons.co</website>
 	</extension>
 </addon>
+
 
 <addon id="script.module.pyxbmct"
    name="PyXBMCt"
