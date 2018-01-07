@@ -153,7 +153,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.placenta" version="1.0.5" name="Placenta" provider-name="Team Afterbirth">
+<addon id="plugin.video.placenta" version="1.0.6" name="Placenta" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.placenta" />
@@ -162,6 +162,7 @@
 		<import addon="script.module.urlresolver" version="3.0.0" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
+        <import addon="plugin.video.youtube"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -183,7 +184,7 @@
 		<news></news>
 	</extension>
 </addon>
-<addon id="script.module.placenta" name="Placenta Module" version="1.0.8" provider-name="Team Afterbirth">
+<addon id="script.module.placenta" name="Placenta Module" version="1.0.9" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -194,7 +195,7 @@
 		<description>You are welcome! - Team Afterbirth (mr blamo and Muad'Dib)</description>
 	</extension>
 </addon>
-<addon id="script.placenta.artwork" version="1.0.1" name="Placenta Artwork" provider-name="Team Afterbirth">
+<addon id="script.placenta.artwork" version="1.0.3" name="Placenta Artwork" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
