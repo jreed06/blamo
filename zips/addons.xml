@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.0.3" provider-name="Blamo">
-	<extension point="xbmc.addon.repository" name="lookingglass">
+<addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.0.4" provider-name="Blamo">
+	<extension point="xbmc.addon.repository" name="Blamos">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
@@ -17,6 +17,11 @@
 		<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
 		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>		
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en"></summary>
@@ -24,7 +29,6 @@
 		<genre>movies,usa</genre>
 	</extension>
 </addon>
-
 <addon id="plugin.video.blamo" version="2.4.3" name="Death Streams" provider-name="Mr.Blamo">
     <requires>        
 		<import addon="xbmc.python" version="2.19.0"/>
