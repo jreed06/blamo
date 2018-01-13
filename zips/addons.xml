@@ -156,7 +156,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.placenta" version="1.0.7" name="Placenta" provider-name="Team Afterbirth">
+<addon id="plugin.video.placenta" version="1.0.8" name="Placenta" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.placenta" />
@@ -187,7 +187,7 @@
 		<news></news>
 	</extension>
 </addon>
-<addon id="script.module.placenta" name="Placenta Module" version="1.1.1" provider-name="Team Afterbirth">
+<addon id="script.module.placenta" name="Placenta Module" version="1.1.2" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -247,13 +247,14 @@
     <website>http://livestreamer.io</website>
   </extension>
 </addon>
-<addon id="plugin.video.dsrdplus" version="1.0.0" name="Death Streams RD" provider-name="Mr.blamo">
+<addon id="plugin.video.dsrdplus" version="1.0.1" name="Death Streams RD" provider-name="Mr.blamo">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.futures" version="2.2.0"/>
         <import addon="script.module.metahandler" version="3.0.2" />
         <import addon="script.module.pyxbmct" version="1.2.0"/>
-        <import addon="script.module.dateutil" version="2.5.3"/>
+		<import addon="script.deaths.themepak"/>
+        <import addon="script.module.dateutil"/>
         <import addon="script.module.myconnpy"/>
 		<import addon="script.module.requests" />
         <import addon="script.module.dsrd"/>
