@@ -34,7 +34,6 @@
 		<genre>movies,usa</genre>
 	</extension>
 </addon>
-
 <addon id="plugin.video.blamo" version="2.4.8" name="Death Streams" provider-name="Mr.Blamo">
     <requires>        
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -86,7 +85,6 @@
 		<summary lang="en">Credit to TKnorris</summary>
 	</extension>
 </addon>
-	
 <addon id="context.ds.tools" version="1.1.0" name="[COLOR gold]DS Context Tools[/COLOR]" provider-name="Mr.Blamo">
     <requires>
         <import addon="xbmc.python" version="2.2.0"/>
@@ -148,7 +146,6 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
 <addon id="script.neptune.metadata" version="1.0.4" name="[COLOR gold]Neptune Rising Metadata[/COLOR]" provider-name="Mr.Blamo">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -310,7 +307,6 @@
     <description lang="en"></description>    
   </extension>
 </addon>
-
 <addon id="script.module.metahandler" 
      name="metahandler" 
      version="3.0.2" 
@@ -335,7 +331,6 @@
     <source></source>
   </extension>
 </addon>
-
 <addon id="script.module.urlresolver" name="URLResolver" version="4.0.17" provider-name="Eldorado, tknorris, tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -355,8 +350,6 @@
         <website>https://www.tvaddons.co</website>
 	</extension>
 </addon>
-
-
 <addon id="script.module.pyxbmct"
    name="PyXBMCt"
    version="1.2.0"
