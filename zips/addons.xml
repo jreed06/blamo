@@ -157,7 +157,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.placenta" version="1.1.4" name="Placenta" provider-name="Team Afterbirth">
+<addon id="plugin.video.placenta" version="1.1.5" name="Placenta" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.placenta" />
@@ -171,7 +171,6 @@
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Placenta</summary>
 		<description>Covenant Fork from Echo/Colossus era with Team Afterbirth's updates and new code.</description>
@@ -188,7 +187,7 @@
 		<news></news>
 	</extension>
 </addon>
-<addon id="script.module.placenta" name="Placenta Module" version="1.1.8" provider-name="Team Afterbirth">
+<addon id="script.module.placenta" name="Placenta Module" version="1.1.9" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
